@@ -80,7 +80,8 @@ public class App {
 s
 # Salida esperada:
 
-![alt text](image.png)
+<img width="297" height="193" alt="image" src="https://github.com/user-attachments/assets/0cae2c4a-72dd-4f39-a054-6575028fc096" />
+
 
 ```java
 Nombre: Daniel Duran
