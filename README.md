@@ -74,10 +74,6 @@ public class App {
         grafo.addEdge(nodo7, nodo8);
 
         grafo.printGraph();  // Imprime el grafo
-
-        grafo.getDFS(nodo0); // Realiza DFS desde el nodo0
-        grafo.getBFS(nodo0); // Realiza BFS desde el nodo0
-        grafo.printAdjacencyMatrix();  // Imprime la matriz de adyacencia
     }
 }
 ```
