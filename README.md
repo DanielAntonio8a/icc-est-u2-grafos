@@ -83,36 +83,16 @@ s
 ![alt text](image.png)
 
 ```java
-Vertex 1: 
-	 -> 2 -> 4 -> 8 -> 0
-Vertex 2: 
-	 -> 1 -> 3
-Vertex 3: 
-	 -> 2 -> 4 -> 7 -> 9 -> 0
-Vertex 4: 
-	 -> 1 -> 3
-Vertex 5: 
-	 -> 0
-Vertex 7: 
-	 -> 3 -> 8
-Vertex 8: 
-	 -> 1 -> 7
-Vertex 9: 
-	 -> 3
-Vertex 0: 
-	 -> 1 -> 3 -> 5
-DFS: 0 1 2 3 4 7 8 9 5 
-BFS: 0 1 3 5 2 4 8 7 9 
-Matriz de Adyacencia:
-0 1 0 1 0 0 1 0 1 
-1 0 1 0 0 0 0 0 0 
-0 1 0 1 0 1 0 1 1 
-1 0 1 0 0 0 0 0 0 
-0 0 0 0 0 0 0 0 1 
-0 0 1 0 0 0 1 0 0 
-1 0 0 0 0 1 0 0 0 
-0 0 1 0 0 0 0 0 0 
-1 0 1 0 1 0 0 0 0 
+Nombre: Daniel Duran
+Vertex 0: -> 1 -> 3 -> 5
+Vertex 1: -> 0 -> 2 -> 4 -> 8
+Vertex 2: -> 1 -> 3
+Vertex 3: -> 0 -> 2 -> 4 -> 7 -> 9
+Vertex 4: -> 1 -> 3
+Vertex 5: -> 0
+Vertex 7: -> 3 -> 8
+Vertex 8: -> 1 -> 7
+Vertex 9: -> 3
 ```
 ### Funcionalidades
 -   DFS (Búsqueda en profundidad): Realiza un recorrido profundo desde un nodo inicial, visitando todos los nodos conectados de manera recursiva.
